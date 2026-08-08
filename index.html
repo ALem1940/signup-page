@@ -5,6 +5,8 @@
 	<meta name-"viewport" content-"width=device-width, initial-scale=1">
 	<title>Join the Parents that Homeschool Club</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.classless.min.css">
+	<link rel="stylesheet" href="style.css">
+	
 </head>
 <body style="background-color: lightyellow;">
 	<header>
@@ -25,22 +27,24 @@
 		</section>
 		<section id="why">
 			<h2 style="color:MediumSeaGreen;">Why join❓</h2>
-			<article>
-				<h3 style="color:Tomato;">Travel buddies!✈️</h3>
-				<p>Don't want to drive alone? Link up and carpool or hop on the shuttle bus with local parents to any school event.</p>
-			</article>
-			<article>
-				<h3 style="color:Tomato;">You are not alone!💕</h3>
-				<p>A community of teachers and parents are right there with you to help you, help your students.</p>
-			</article>
-			<article>
-				<h3 style="color:Tomato;">Test prep!📄</h3>
-				<p>Share in on the fun as we help our students prepare for LEAP, SAT, and the ACT....</p>
-			</article>
-			<article>
-				<h3 style="color:Tomato;">Skill Sharing!🤓</h3>
-				<p>Share you strengths with others who are willing to learn from you.</p>
-			</article>
+			<div class="flex-container">
+				<article>
+					<h3 style="color:Tomato;">Travel buddies!✈️</h3>
+					<p>Don't want to drive alone? Link up and carpool or hop on the shuttle bus with local parents to any school event.</p>
+				</article>
+				<article>
+					<h3 style="color:Tomato;">You are not alone!💕</h3>
+					<p>A community of teachers and parents are right there with you to help you, help your students.</p>
+				</article>
+				<article>
+					<h3 style="color:Tomato;">Test prep!📄</h3>
+					<p>Share in on the fun as we help our students prepare for LEAP, SAT, and the ACT....</p>
+				</article>
+				<article>
+					<h3 style="color:Tomato;">Skill Sharing!🤓</h3>
+					<p>Share you strengths with others who are willing to learn from you.</p>
+				</article>
+			</div>
 		</section>
 		<section id="join">
 			<h2 style="color:MediumSeaGreen;">Join🤝</h2>
@@ -54,8 +58,26 @@
 				<label>Choose a password
 					<input id="member-password" name="member-password" type="password" required>
 				</label>
+				<label>Why do you want to join❓
+					<textarea id="member-name" name="member-why"></textarea>
+				</label>
+				<label>How did you hear about us❓
+					<select id="member-source" name="member-source">
+						<option>A friend</option>
+						<option>A poster</option>
+						<option>Just browsing</option>
+						<option>Intentional visit to our website</option>
+					</select>
+				</label>
 				<button>Join the club</button>
 			</form>
+		</section>
+		<section id="field-notes">
+			<h2>Field notes: block and inline</h2>
+			<p>A paragraph is a block. Inside it, <strong>strong words</strong>,
+			<a href="#welcome">links</a>, and <span>plain spans</span> stay in line.</p>
+			<div>A div takes the whole row.</div>
+			<p>So does a paragraph.</p>
 		</section>
 		<section id="events">
 			<h2 style="color:MediumSeaGreen;">🚴Events🏊‍♀️️</h2>
@@ -70,7 +92,7 @@
 		</section>
 	</main>
 	<footer>
-		<p>Made by Ashanti Lemonia, 2026</p>
+		<p>Made by Ashanti Lemonia(Tsasa), 2026</p>
 	<footer>
 </body>
 </html>
