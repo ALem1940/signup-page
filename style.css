@@ -6,6 +6,9 @@
 	padding: 2rem;
 	border-style:dashed dotted solid double;
 	border-width:10px;
+	border-top-left-radius:80px;
+	border-bottom-right-radius:80px;
+	
 }
 
 .flex-container {
@@ -31,4 +34,28 @@
 footer {
 	text-align: center;
 	padding: 2rem 1rem;
+}
+
+input:focus,
+textarea:focus {
+	outline: 3px solid steelblue;
+	background-color: lightgreen;
+}
+
+#member-email:valid {
+	border: 2px solid seagreen;
+}
+
+#member-email:invalid {
+	border: 2px dashed darkorange;
+}
+
+#welcome h1 {
+	text-shadow: 5px -3px 5px gray;
+}
+
+#welcome a:hover {
+	background-color: lightblue;
+	color: white;
+	
 }
