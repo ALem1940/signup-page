@@ -2,4 +2,4 @@
 
 A resource page for parents eager to homeschool: All about us and how to join with sign up form.
 
-[Live page](https://your-username.github.io/signup-page/)
+[Live page](https://ALem1940.github.io/signup-page/)
